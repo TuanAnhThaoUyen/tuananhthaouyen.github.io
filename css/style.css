@@ -42,7 +42,7 @@ img {
 	font-weight: bold;
 	font-style: normal;
 	font-size: 65px;
-	margin: 30px 0;
+	margin: 20px 0;
 	color: #f11370;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .title {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 #time {
@@ -146,8 +146,8 @@ body {
 }
 
 .block {
-	width: 180px;
-	height: 160px;
+	width: 80px;
+	height: 60px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -156,11 +156,11 @@ body {
 }
 
 .days {
-	background: linear-gradient(90deg, #b33a46, #9b313c);
+	background: linear-gradient(90deg, #5dcee8, #5dcee8);
 }
 
 .hours {
-	background: linear-gradient(90deg, #a7c3cd, #90a9b2);
+	background: linear-gradient(90deg, #5dcee8, #5dcee8);
 }
 
 .minutes {
@@ -232,6 +232,31 @@ a {
 	font-size: 15px;
 	letter-spacing: 0pt;
 }
+
+.btn-group button {
+	background-color: #04AA6D; /* Green background */
+	border: 1px solid green; /* Green border */
+	color: white; /* White text */
+	text-align: center;
+	font-size: 15px;
+	margin: 20px;
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+	border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+	background-color: #3e8e41;
+  }
 
 @-webkit-keyframes fall {
 	0% {

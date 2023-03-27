@@ -9,7 +9,7 @@ $(document).on('click', function(){
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("July 25, 2023 00:00:00").getTime();
+var countDownDate = new Date("April 29, 2023 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -36,7 +36,6 @@ var x = setInterval(function() {
     }
 }, 1000);
 
-// being a bit cool :p  
 var styles = [
     'background: linear-gradient(#D33106, #571402)'
     , 'border: 4px solid #3E0E02'
