@@ -80,7 +80,7 @@ img {
 .title p {
 
 	color: #564861;
-	margin: 20px 0 15px;
+	margin: 10px 0 10px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 15px;
@@ -118,8 +118,8 @@ body {
 	height: auto;
 	padding: 15px;
 	background-color: #eee;
-	border-radius: 20px;
-	font-size: 15px;
+	border-radius: 15px;
+	font-size: 12px;
 }
 
 .menu {
@@ -146,8 +146,8 @@ body {
 }
 
 .block {
-	width: 80px;
-	height: 60px;
+	width: 60px;
+	height: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -156,11 +156,11 @@ body {
 }
 
 .days {
-	background: linear-gradient(90deg, #5dcee8, #5dcee8);
+	background: linear-gradient(90deg, #dc5563, #dc5563);
 }
 
 .hours {
-	background: linear-gradient(90deg, #5dcee8, #5dcee8);
+	background: linear-gradient(90deg, #65bbda, #65bbda);
 }
 
 .minutes {
@@ -172,15 +172,15 @@ body {
 }
 
 .date {
-	font-family: 'Alata', sans-serif;
-	color: #291920;
+	font-family: 'Alata', serif;
+	color: #f7b448;
 	font-weight: 900;
 	font-size: 20px;
 }
 
 .place {
 	font-family: 'Alata', sans-serif;
-	color: #291920;
+	color: #f7b448;
 	font-weight: 900;
 	font-size: 20px;
 }

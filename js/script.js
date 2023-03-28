@@ -36,6 +36,7 @@ var x = setInterval(function() {
     }
 }, 1000);
 
+// being a bit cool :p  
 var styles = [
     'background: linear-gradient(#D33106, #571402)'
     , 'border: 4px solid #3E0E02'
