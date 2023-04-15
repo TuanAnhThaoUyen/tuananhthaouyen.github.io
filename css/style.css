@@ -41,7 +41,7 @@ img {
 	font-family: 'Dancing Script', cursive;
 	font-weight: bold;
 	font-style: normal;
-	font-size: 65px;
+	font-size: 60px;
 	margin: 20px 0;
 	color: #f11370;
 }
@@ -122,7 +122,23 @@ body {
 	font-size: 12px;
 }
 
-.menu {
+.ceremony {
+	width: auto;
+	height: auto;
+	background-color: #04afda;
+	border-radius: 10px;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	margin-right: 5px;
+}
+
+.ceremony a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* .maps {
 	width: auto;
 	height: auto;
 	background-color: #04afda;
@@ -133,10 +149,10 @@ body {
 	margin-right: 5px;
 }
 
-.menu a {
+.maps a {
 	text-decoration: none;
 	color: #fff;
-}
+} */
 
 .container {
 	display: grid;
@@ -188,8 +204,8 @@ body {
 .footer {
 	color: #0b0113;
 	text-align: center;
-	font-size: 15px;
-	margin: 20px;
+	font-size: 20px;
+	margin: 10px;
 }
 
 .phone {
@@ -219,10 +235,6 @@ a {
 	margin-bottom: 24px;
 }
 
-.twitter {
-	color: #874562;
-}
-
 .music {
 	display: none;
 }
@@ -233,29 +245,27 @@ a {
 	letter-spacing: 0pt;
 }
 
-.btn-group button {
-	background-color: #04AA6D; /* Green background */
-	border: 1px solid green; /* Green border */
-	color: white; /* White text */
+.button a {
+	background-color: #04AA6D; 
+	border: 1px solid green; 
+	color: white; 
 	text-align: center;
 	font-size: 15px;
-	margin: 20px;
+	margin: 5px;
   }
   
-  /* Clear floats (clearfix hack) */
-  .btn-group:after {
+  .button:after {
 	content: "";
 	clear: both;
 	display: table;
   }
   
-  .btn-group button:not(:last-child) {
-	border-right: none; /* Prevent double borders */
+  .button a:not(:last-child) {
+	border-right: none; 
   }
   
-  /* Add a background color on hover */
-  .btn-group button:hover {
-	background-color: #3e8e41;
+  .button a:hover {
+	background-color: #82cc85;
   }
 
 @-webkit-keyframes fall {
