@@ -13,7 +13,7 @@ $(document).on('click', function(){
 // Thiết lập ngày đếm ngược đến ngày cưới
 // 3 mốc thời gian cho Đính Hôn, Vu Quy và Thành Hôn
 // var countDownDate = new Date("April 29, 2023 09:00:00").getTime();
-var countDownDate = new Date("July 19, 2023 07:00:00").getTime();
+var countDownDate = new Date("July 25, 2023 09:00:00").getTime();
 // var countDownDate = new Date("July 25, 2023 11:00:00").getTime();
 
 // Cập nhật ngày đếm ngược mỗi giây
@@ -37,7 +37,7 @@ var x = setInterval(function() {
     // Nếu đếm ngược kết thúc, in ra một thông báo
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
+        document.getElementById("time").innerHTML = "Happy Wedding! New jouney had been beginning !";
     }
 }, 1000);
 
